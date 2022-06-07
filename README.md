@@ -35,7 +35,7 @@ There's no documention yet. lol, since the module has 1 use only.
 *A-Ahem..* you can try more lewd stuff
 
 ```py
-from nsfwlib import detect
+from nsfw_detection import detect
 
 api_key = "quickstart-QUdJIGlzIGNvbWluZy4uLi4K"
 
@@ -58,7 +58,7 @@ print(result)
 ```
 ### Using Image URL
 ```py
-from nsfwlib import detect
+from nsfw_detection import detect
 
 api_key = "quickstart-QUdJIGlzIGNvbWluZy4uLi4K"
 
