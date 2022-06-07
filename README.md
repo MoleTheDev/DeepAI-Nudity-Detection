@@ -13,6 +13,7 @@ It Detects the likelihood that an image contains nudity and should be considered
 * NSFW Score
 * Confidence Value
 * Detected Parts
+* Bounding Boxes Position (where is the part shown)
 </p>
 
 ## Installation
@@ -30,8 +31,9 @@ There's no documention yet. lol, since the module has 1 use only.
 ## Usage
 -> (assuming you already downloaded the module file in your project directory, or your packages directory)
 ### Using Image local file
-<img src="image.jpg">
-<br>
+<img src="image.jpg"><br>
+*A-Ahem..* you can try more lewd stuff
+
 ```py
 from nsfwlib import detect
 
@@ -41,14 +43,33 @@ api_key = "quickstart-QUdJIGlzIGNvbWluZy4uLi4K"
 result = detect(api_key, "image.jpg", False, True)
 
 print(result)
-```<br>
-
+```
 #### Output
-```json
+```javascript
 {
-   'id': '10aa0275-10f5-4330-8f5c-05d97c90bdd8',
-   'output': 
-      {'detections': [],
-      'nsfw_score': 0.4273429811000824}
+'id': '10aa0275-10f5-4330-8f5c-05d97c90bdd8',
+'output': 
+   {
+    'detections': [], 
+    'nsfw_score': 0.4273429811000824
+   }
 }
 
+```
+### Using Image URL
+```py
+from nsfwlib import detect
+
+api_key = "quickstart-QUdJIGlzIGNvbWluZy4uLi4K"
+
+img_url = "https://github.com/MoleTheDev/DeepAI-Nudity-Detection/blob/main/image.jpg"
+
+# detect(api_key, img, link, output)
+result = detect(api_key, False, img_url, True)
+
+print(result)
+```
+It would be the same output, *sooo* i don't have to put the output again.
+
+### DISCORD:
+**MOLE#2165**
