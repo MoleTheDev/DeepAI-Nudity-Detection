@@ -5,7 +5,7 @@
 
 # DeepAI-Nudity-Detection
 <p>
-This python package implements a wrapper class around Nudity Detection API. Please be aware that this is not an official API.
+This python package implements a wrapper class around DeepAI Nudity Detection API. Please be aware that this is not an official API.
 It Detects the likelihood that an image contains nudity and should be considered NSFW. Returns a number between 0 and 1, with 1 being 100% likely to contain nudity and be NSFW.
 <br>
 
