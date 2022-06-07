@@ -21,7 +21,7 @@ Sadly, I'm lazy enough to package the module and upload it to Pypi,
 So you need to put the file in your packages file or in your project file specifically.<br>
 #### Getting the file
 ```
-wget https://raw.githubcontent.com/MoleTheDev/DeepAI-Nudity-Detection/nsfw_detect.py
+wget https://raw.githubusercontent.com/MoleTheDev/DeepAI-Nudity-Detection/main/nsfw_detection.py
 ```
 Running this command in terminal will download the file in the directory you are in.
 
