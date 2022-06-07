@@ -1,6 +1,6 @@
 <p align="center">
  <img width="100px" src="https://icon-library.com/images/moon-icon-png/moon-icon-png-4.jpg" align="center" alt="Github Readme Stats" />
- <h2 align="center">DeepAI Nudity Detection API Wrapper</h2>
+ <h2 align="center">DeepAI Nudity Detection API Wrapper DEMO</h2>
 </p>
 
 # DeepAI-Nudity-Detection
