@@ -62,7 +62,7 @@ from nsfw_detection import detect
 
 api_key = "quickstart-QUdJIGlzIGNvbWluZy4uLi4K"
 
-img_url = "https://github.com/MoleTheDev/DeepAI-Nudity-Detection/blob/main/image.jpg"
+img_url = "https://raw.githubusercontent.com/MoleTheDev/DeepAI-Nudity-Detection/main/image.jpg"
 
 # detect(api_key, img, link, output)
 result = detect(api_key, False, img_url, True)
