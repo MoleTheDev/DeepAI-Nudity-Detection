@@ -72,4 +72,4 @@ print(result)
 It would be the same output, *sooo* i don't have to put the output again.
 
 ### DISCORD:
-**MOLE#2165**
+**MOLE#6846**
